@@ -22,26 +22,26 @@ Exit
 SendInput ^{End}
 Exit
 
-^u::
+^!u::
 SendInput ü
 Exit
 
-+^u::
++^!u::
 SendInput Ü
 Exit
 
-^a::
+^!a::
 SendInput ä
 Exit
 
-+^a::
++^!a::
 SendInput Ä
 Exit
 
-^o::
+^!o::
 SendInput ö
 Exit
 
-+^o::
++!^o::
 SendInput Ö
 Exit
